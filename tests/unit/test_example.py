@@ -7,7 +7,7 @@ is up to you. This test example provides a single test for the example.py
 module.
 """
 
-from 2026_01_12_demo.example import add_numbers
+from pytest1.example import add_numbers
 
 def test_add_numbers():
     """
@@ -18,3 +18,8 @@ def test_add_numbers():
     out = add_numbers(1, 2)
     expected_out = 3
     assert  out == expected_out, f"Expected {expected_out} but got {out}"
+
+def test_add_neg_numbers():
+    calculated = add_numbers(-1, -2)
+    expected = -3
+    assert calculated == expected
