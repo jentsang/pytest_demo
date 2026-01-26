@@ -1,5 +1,7 @@
 # Welcome to 2026 01 12 demo: pytest1
 
+[![codecov](https://codecov.io/github/jentsang/pytest_demo/graph/badge.svg?token=6MA0UUV3BJ)](https://codecov.io/github/jentsang/pytest_demo)
+
 |        |        |
 |--------|--------|
 | Package | [![Latest PyPI Version](https://img.shields.io/pypi/v/pytest1.svg)](https://pypi.org/project/pytest1/) [![Supported Python Versions](https://img.shields.io/pypi/pyversions/pytest1.svg)](https://pypi.org/project/pytest1/)  |
